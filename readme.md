@@ -5,6 +5,8 @@ This is a TreeView Web Component using Stenciljs.
 - Built with Stencil
 - Built with TailwindCSS v3.x
 
+\*\*\* Special thanks to [Hasibul Haque](https://github.com/hasibul2363)
+
 ## Installation
 
 ```bash
@@ -97,3 +99,7 @@ hide checkbox:
 ```html
 <cb-treeview check-box="false"></cb-treeview>
 ```
+
+## Demo
+
+[codesandbox](https://codesandbox.io/s/coolbrains-treeview-component-built-with-stenciljs-eixw6s)
