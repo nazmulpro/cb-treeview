@@ -7,6 +7,10 @@ This is a TreeView Web Component using Stenciljs.
 
 \*\*\* Special thanks to [Hasibul Haque](https://github.com/hasibul2363)
 
+## Demo
+
+[codesandbox](https://codesandbox.io/s/coolbrains-treeview-component-built-with-stenciljs-eixw6s?file=/index.html)
+
 ## Installation
 
 ```bash
@@ -100,8 +104,6 @@ hide checkbox:
 <cb-treeview check-box="false"></cb-treeview>
 ```
 
-## Demo
 
-[codesandbox](https://codesandbox.io/s/coolbrains-treeview-component-built-with-stenciljs-eixw6s?file=/index.html)
 
 
