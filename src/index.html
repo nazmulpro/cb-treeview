@@ -3,12 +3,79 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
-    <title>Stencil Component Starter</title>
+    <title>Stencil Coolbrains Treeview Component</title>
 
     <script type="module" src="/build/cb-treeview.esm.js"></script>
     <script nomodule src="/build/cb-treeview.js"></script>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <h2>Stenciljs TreeView Component</h2>
+    <hr />
+    <cb-treeview></cb-treeview>
+    <script>
+      const data = [
+        {
+          id: 1,
+          name: 'Parent 1',
+          parentId: null,
+          children: [
+            {
+              id: 3,
+              name: 'Parent 1-0',
+              parentId: 1,
+              children: [
+                {
+                  id: 2,
+                  name: 'Leaf',
+                  parentId: 3,
+                  children: [
+                    {
+                      id: 8,
+                      name: 'Leaf',
+                      parentId: 2,
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              id: 4,
+              name: 'Parent 1-1',
+              parentId: 1,
+              children: [],
+            },
+          ],
+        },
+        {
+          id: 5,
+          name: 'Parent 2',
+          parentId: null,
+          children: [],
+        },
+        {
+          id: 9,
+          name: 'Parent 3',
+          parentId: null,
+          children: [
+            {
+              id: 4,
+              name: 'Parent 3-0',
+              parentId: 9,
+              children: [],
+            },
+            {
+              id: 4,
+              name: 'Parent 3-1',
+              parentId: 9,
+              children: [],
+            },
+          ],
+        },
+      ];
+
+      const cbTreeView = document.querySelector('cb-treeview');
+      cbTreeView.dataSource = data;
+    </script>
   </body>
 </html>
