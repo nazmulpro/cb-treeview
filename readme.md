@@ -16,7 +16,7 @@ npm install cb-treeview
 Or use npm cdn
 
 ```js
-<script type="module" src="https://cdn.jsdelivr.net/npm/cb-treeview@0.0.3/dist/cb-treeview/cb-treeview.esm.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/cb-treeview@1.0.0/dist/cb-treeview/cb-treeview.esm.js"></script>
 ```
 
 ## Usage
