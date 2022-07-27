@@ -1,6 +1,6 @@
-# Coolbrains TreeView Component
+# Coolbrains Treeview Component - Built With Stenciljs
 
-This is a TreeView Web Component using Stencil.
+This is a TreeView Web Component using Stenciljs.
 
 - Built with Stencil
 - Built with TailwindCSS v3.x
@@ -14,7 +14,7 @@ npm install cb-treeview
 Or use npm cdn
 
 ```js
-<script type="module" src="https://cdn.jsdelivr.net/npm/"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/cb-treeview@0.0.3/dist/cb-treeview/cb-treeview.esm.js"></script>
 ```
 
 ## Usage
