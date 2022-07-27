@@ -1,7 +1,7 @@
 {
   "name": "cb-treeview",
   "version": "0.0.2",
-  "description": "Coolbrains Treeview Component - Built With Stencil",
+  "description": "Coolbrains Treeview Component - Built With Stenciljs",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
