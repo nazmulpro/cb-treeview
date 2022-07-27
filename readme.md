@@ -102,6 +102,6 @@ hide checkbox:
 
 ## Demo
 
-[codesandbox](https://codesandbox.io/s/coolbrains-treeview-component-built-with-stenciljs-eixw6s?file=/index.html){:target="_blank"}
+[codesandbox](https://codesandbox.io/s/coolbrains-treeview-component-built-with-stenciljs-eixw6s?file=/index.html)
 
 
